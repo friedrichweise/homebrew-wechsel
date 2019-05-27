@@ -1,8 +1,8 @@
 cask 'wechsel' do
-  version '0.3.0'
-  sha256 'eb9528eb129765e969c20b45a28384794a0ee0f64b5afcada5818e74440bf8fb'
+  version '0.4.0'
+  sha256 'a7df38f5dee25c8b8e27d70402b1385c3e4728d6d7548f18dddcdfcb0b99be87'
 
-  url 'https://github.com/friedrichweise/wechsel/releases/download/v0.3-beta/wechsel_v0.3-beta.zip'
+  url 'https://github.com/friedrichweise/wechsel/releases/download/v0.4-beta/wechsel_v0.4-beta.zip'
   appcast 'https://github.com/friedrichweise/wechsel/releases.atom'
   name 'wechsel'
   homepage 'https://github.com/friedrichweise/wechsel'
