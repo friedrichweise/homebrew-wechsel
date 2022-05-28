@@ -1,11 +1,12 @@
-cask 'wechsel' do
-  version '1.0.1'
-  sha256 '37352e2eaea28c7021ffed50f59934185f5858bfbdac932f352efcda2b1d743a'
+cask "wechsel" do
+  version "1.0.2"
+  sha256 "3aed2f3145e8078e5651d3d218e8f3f4702adb73f82d3683c6c9dd3eb17bf197"
 
-  url 'https://github.com/friedrichweise/wechsel/releases/download/v1.0.1/wechsel_v1.0.1.zip'
-  appcast 'https://github.com/friedrichweise/wechsel/releases.atom'
-  name 'wechsel'
-  homepage 'https://wechsel.weise.io'
+  url "https://github.com/friedrichweise/wechsel/releases/download/v#{version}/wechsel_v#{version}.zip", verified: "github.com/friedrichweise/wechsel/"
+  appcast "https://github.com/friedrichweise/wechsel/releases.atom"
+  name "wechsel"
+  desc "Use your keyboard to manage bluetooth connections"
+  homepage "https://wechsel.weise.io/"
 
-  app 'wechsel.app'
+  app "wechsel.app"
 end
